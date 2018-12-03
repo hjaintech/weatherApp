@@ -1,0 +1,42 @@
+.cardContainer {
+    border: 1px solid #a6a6a6;
+    width: 120px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(151,151,151,0.16);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-right: 10px;
+    box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15), 0 1.5px 3px 0 rgba(0,0,0,.15);
+  }
+  
+  .date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #004cde;
+  }
+  
+  .icon {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+  }
+  
+  .tempContainer {
+    margin: 20px 0 20px 0;  
+  }
+  
+  .maxTemp {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .minTemp {
+    font-size: 16px;
+  }
+  
+  .attributes {
+    font-size: 15px;
+  }
+  

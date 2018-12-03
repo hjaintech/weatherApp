@@ -1,0 +1,27 @@
+.autoSuggestContainer {
+    width: 400px;
+}
+.autoSuggestInput {
+    width: 100%;
+    padding: 0.5rem;
+}
+.suggestion {
+    border: 1px solid grey;
+    padding: 0.25rem 0 0.25rem 0.5rem;
+    font-weight: 600;
+}
+
+.activeSuggestion,
+.suggestion:hover {
+    background-color: #008f68;
+    color: #fae042;
+    cursor: pointer;
+}
+.suggestionList {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    width: calc(400px + 1.2rem)
+    
+}
+

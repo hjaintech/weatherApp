@@ -1,32 +1,44 @@
-.App {
-  text-align: center;
+body {
+  font-family: sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.appContainer {
   display: flex;
   flex-direction: column;
+  margin: 20px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   align-items: center;
+}
+
+.headingContainer {
+  height: 100px;
+  width: 100%;
+  background-color: #a9cf23;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inputField {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherCardContainer {
+  display: flex;
+  margin: 50px;
+}
+
+.loaderContainer {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
